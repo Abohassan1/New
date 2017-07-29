@@ -107,25 +107,18 @@
             <div class="col-12"> 
                 <h2>Corporate Leadership</h2>
 
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a href="#peter" class="nav-link active" role="tab" data-toggle="tab">Peter Pan, CEO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#danny" class="nav-link" role="tab" data-toggle="tab">Danny Witherpoon, CFO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#agumbe" class="nav-link" role="tab" data-toggle="tab">Agumbe Tang, CTO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#alberto" class="nav-link" role="tab" data-toggle="tab">Alberto Somyya, Exec. Chef</a>
-                    </li>
-                </ul>
-
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade show active" id="peter">
-                        <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-                        <p class="hidden-xs-down">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                <div id="accordian" role="tablist">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="peterhead">
+                                <h3 class="mb-0">
+                                    <a href="#peter" data-toggle="collapse" data-parent="#accordian">Peter Pan <small>Chief Epicurious Officer</small></a>
+                                </h3>     
+                            </div>
+                    <div role="tab-panel" class="collapse show" id="peter">
+                        <div class="card-block">
+                            <p class="hidden-xs-down">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                        </div>
+                    </div>
                     </div>
                    
                     <div role="tabpanel" class="tab-pane fade" id="danny">
