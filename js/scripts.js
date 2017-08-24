@@ -13,3 +13,9 @@ $(document).ready(function(){
         }
     });
 });
+    $("#loginLink").click(function(){
+        $("#loginModal").modal('toggle');
+    });
+     $("#resbtn").click(function(){
+        $("#reservation").modal('toggle');
+    });
